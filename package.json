@@ -11,12 +11,14 @@
     "check:prettier": "prettier --check \"./**/*.{html,js,ts,json}\"",
     "fix": "yarn fix:stylelint && yarn fix:prettier",
     "fix:stylelint": "yarn lint:stylelint --fix",
-    "fix:prettier": "yarn check:prettier --write"
+    "fix:prettier": "yarn check:prettier --write",
+    "prepare": "simple-git-hooks > /dev/null"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.0",
     "postcss": "^8.3.11",
     "prettier": "^2.4.1",
+    "simple-git-hooks": "^2.7.0",
     "stylelint": "^14.1.0",
     "stylelint-config-prettier": "^9.0.3",
     "stylelint-config-recess-order": "^3.0.0",
@@ -27,5 +29,16 @@
   "volta": {
     "node": "16.13.0",
     "yarn": "1.22.17"
+  },
+  "simple-git-hooks": {
+    "pre-commit": "npx lint-staged"
+  },
+  "lint-staged": {
+    "css/**/*.css": [
+      "stylelint --fix --quiet"
+    ],
+    "./**/*.{html,js,ts,json}": [
+      "prettier --write --loglevel=error"
+    ]
   }
 }

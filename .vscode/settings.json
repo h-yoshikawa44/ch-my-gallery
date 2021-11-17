@@ -13,6 +13,5 @@
   "[css]": {
     "editor.formatOnSave": true
   },
-  "html-css-class-completion.enableEmmetSupport": true,
-  "stylelint.stylelintPath": "./node_modules/stylelint"
+  "html-css-class-completion.enableEmmetSupport": true
 }
