@@ -13,15 +13,56 @@
       rel="stylesheet"
       href="https://unpkg.com/modern-css-reset/dist/reset.min.css"
     />
-    <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,700;1,700&family=Montserrat:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;0,700;1,600;1,700&display=swap"
       rel="stylesheet"
-    /> -->
+    />
     <link rel="stylesheet" href="/css/style.css" />
   </head>
   <body>
-    <p>test</p>
+    <main class="container">
+      <header class="header">
+        <div class="header__profile-base">
+          <p class="profile-img-block">
+            <img
+              src="./images/profilePhoto.png"
+              alt="Rodney Cotton Image"
+              class="profile-img"
+            />
+          </p>
+          <h2 class="profile-name">Rodney Cotton</h2>
+          <small class="profile-location">Helsinki, Finland</small>
+        </div>
+        <div class="header__profile-info">
+          <div class="profile-info__item">
+            <p class="profile-info__item-value">100</p>
+            <small class="profile-info__item-caption">Posts</small>
+          </div>
+          <div class="profile-info__item">
+            <p class="profile-info__item-value">2,242</p>
+            <small class="profile-info__item-caption">Follower</small>
+          </div>
+          <div class="profile-info__item">
+            <p class="profile-info__item-value">1,432</p>
+            <small class="profile-info__item-caption">Following</small>
+          </div>
+        </div>
+      </header>
+      <div class="gallery">
+        <img src="./images/photo1.png" alt="Image" />
+        <img src="./images/photo2.png" alt="Image" />
+        <img src="./images/photo3.png" alt="Image" />
+        <img src="./images/photo4.png" alt="Image" />
+        <img src="./images/photo5.png" alt="Image" />
+        <img src="./images/photo6.png" alt="Image" />
+      </div>
+    </main>
+    <footer id="footer" class="footer">
+      <small class="footer__signature">
+        created by h-yoshikawa44 - devChallenges.io</small
+      >
+    </footer>
   </body>
 </html>
