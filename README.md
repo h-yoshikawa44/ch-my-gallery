@@ -8,10 +8,10 @@
 
 <div align="center">
   <h3>
-    <!-- <a href="https://{your-demo-link.your-domain}">
+    <a href="https://h-yoshikawa44.github.io/ch-my-gallery/">
       Demo
     </a>
-    <span> | </span> -->
+    <span> | </span>
     <!-- <a href="https://{your-url-to-the-solution}">
       Solution
     </a>
@@ -28,17 +28,23 @@
 
 - [Table of Contents](#table-of-contents)
 - [Overview](#overview)
+  - [Desktop](#desktop)
+  - [Mobile](#mobile)
   - [Built With](#built-with)
 - [Features](#features)
 - [How To Use](#how-to-use)
+- [learned/improved](#learnedimproved)
 - [Acknowledgements](#acknowledgements)
 - [Contact](#contact)
 
 <!-- OVERVIEW -->
 
 ## Overview
+### Desktop
+![overview - desktop](/screenshots/desktop.png)
 
-(※in preparation)
+### Mobile
+<img src="/screenshots/mobile.png" alt="overview - mobile" width="35%">
 
 ### Built With
 
@@ -56,7 +62,7 @@ Base
 
 This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/gcbWLxG6wdennelX7b8I) was to build an application to complete the given user stories.
 
-- [ ] User story: I can see a page following the given design
+- [x] User story: I can see a page following the given design
 
 ## How To Use
 
@@ -64,9 +70,9 @@ To clone and run this application, you'll need [Git](https://git-scm.com/) and [
 
 ```
 # Clone this repository
-$ git clone git@github.com:h-yoshikawa44/ch-recipe-page.git
+$ git clone https://github.com/h-yoshikawa44/ch-my-gallery.git
 or
-$ git clone git@github.com:h-yoshikawa44/ch-recipe-page.git
+$ git clone git@github.com:h-yoshikawa44/ch-my-gallery.git
 
 # Install dependencies
 $ yarn install
@@ -75,11 +81,14 @@ $ yarn install
 $ yarn dev
 ```
 
+## learned/improved
+- How to combine nth-child with grid-row and grid-column.
+
 ## Acknowledgements
 
 <!-- This section should list any articles or add-ons/plugins that helps you to complete the project. This is optional but it will help you in the future. For exmpale -->
 
-(※in preparation)
+- [MDN - CSS グリッドレイアウトでの自動配置](https://developer.mozilla.org/ja/docs/Web/CSS/CSS_Grid_Layout/Auto-placement_in_CSS_Grid_Layout)
 
 ## Contact
 
