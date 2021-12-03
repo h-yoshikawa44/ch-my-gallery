@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="robots" content="noindex, nofollow" />
     <title>My Gallery</title>
+    <meta
+      name="description"
+      content="devChallenges.io - My Gallery | by h-yoshikawa44"
+    />
     <link rel="icon" type="image/png" href="/favicon.png" />
 
     <!-- CSS -->
@@ -22,41 +26,45 @@
     <link rel="stylesheet" href="/css/style.css" />
   </head>
   <body>
-    <main class="container">
+    <main>
       <header class="header">
-        <div class="header__profile-base">
-          <p class="profile-img-block">
-            <img
-              src="./images/profilePhoto.png"
-              alt="Rodney Cotton Image"
-              class="profile-img"
-            />
-          </p>
-          <h2 class="profile-name">Rodney Cotton</h2>
-          <small class="profile-location">Helsinki, Finland</small>
-        </div>
-        <div class="header__profile-info">
-          <div class="profile-info__item">
-            <p class="profile-info__item-value">100</p>
-            <small class="profile-info__item-caption">Posts</small>
+        <div class="container header__layout">
+          <div class="header__profile-base">
+            <p class="profile-img-block">
+              <img
+                src="./images/profilePhoto.png"
+                alt="Rodney Cotton Image"
+                class="profile-img"
+              />
+            </p>
+            <h2 class="profile-name">Rodney Cotton</h2>
+            <small class="profile-location">Helsinki, Finland</small>
           </div>
-          <div class="profile-info__item">
-            <p class="profile-info__item-value">2,242</p>
-            <small class="profile-info__item-caption">Follower</small>
-          </div>
-          <div class="profile-info__item">
-            <p class="profile-info__item-value">1,432</p>
-            <small class="profile-info__item-caption">Following</small>
+          <div class="header__profile-info">
+            <div class="profile-info__item">
+              <p class="profile-info__item-value">100</p>
+              <small class="profile-info__item-caption">Posts</small>
+            </div>
+            <div class="profile-info__item">
+              <p class="profile-info__item-value">2,242</p>
+              <small class="profile-info__item-caption">Follower</small>
+            </div>
+            <div class="profile-info__item">
+              <p class="profile-info__item-value">1,432</p>
+              <small class="profile-info__item-caption">Following</small>
+            </div>
           </div>
         </div>
       </header>
       <div class="gallery">
-        <img src="./images/photo1.png" alt="Image" />
-        <img src="./images/photo2.png" alt="Image" />
-        <img src="./images/photo3.png" alt="Image" />
-        <img src="./images/photo4.png" alt="Image" />
-        <img src="./images/photo5.png" alt="Image" />
-        <img src="./images/photo6.png" alt="Image" />
+        <div class="container gallery__layout">
+          <img src="./images/photo1.png" alt="Image" />
+          <img src="./images/photo2.png" alt="Image" />
+          <img src="./images/photo3.png" alt="Image" />
+          <img src="./images/photo4.png" alt="Image" />
+          <img src="./images/photo5.png" alt="Image" />
+          <img src="./images/photo6.png" alt="Image" />
+        </div>
       </div>
     </main>
     <footer id="footer" class="footer">
