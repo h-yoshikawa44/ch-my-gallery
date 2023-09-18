@@ -13,5 +13,8 @@
   "[css]": {
     "editor.formatOnSave": true
   },
+  "[markdown]": {
+    "editor.formatOnSave": false
+  },
   "html-css-class-completion.enableEmmetSupport": true
 }
