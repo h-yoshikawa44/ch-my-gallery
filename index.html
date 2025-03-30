@@ -16,20 +16,25 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;0,700;1,600;1,700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;0,700;1,600;1,700&amp;display=swap"
       rel="stylesheet"
     />
   </head>
   <body>
+    <header class="hide-header">
+      <h1>My Gallery</h1>
+    </header>
     <main>
       <header class="header">
         <div class="container header__layout">
           <div class="header__profile-base">
             <p class="profile-img-block">
               <img
+                class="profile-img"
                 src="./images/profilePhoto.png"
                 alt="Rodney Cotton Image"
-                class="profile-img"
+                width="624"
+                height="624"
               />
             </p>
             <h2 class="profile-name">Rodney Cotton</h2>
@@ -53,19 +58,29 @@
       </header>
       <div class="gallery">
         <div class="container gallery__layout">
-          <img src="./images/photo1.png" alt="Image" />
-          <img src="./images/photo2.png" alt="Image" />
-          <img src="./images/photo3.png" alt="Image" />
-          <img src="./images/photo4.png" alt="Image" />
-          <img src="./images/photo5.png" alt="Image" />
-          <img src="./images/photo6.png" alt="Image" />
+          <img src="./images/photo1.png" alt="Image" width="600" height="598" />
+          <img
+            src="./images/photo2.png"
+            alt="Image"
+            width="1258"
+            height="598"
+          />
+          <img
+            src="./images/photo3.png"
+            alt="Image"
+            width="1254"
+            height="598"
+          />
+          <img src="./images/photo4.png" alt="Image" width="297" height="630" />
+          <img src="./images/photo5.png" alt="Image" width="598" height="596" />
+          <img src="./images/photo6.png" alt="Image" width="598" height="598" />
         </div>
       </div>
     </main>
     <footer id="footer" class="footer">
       <small class="footer__signature">
-        created by h-yoshikawa44 - devChallenges.io</small
-      >
+        created by h-yoshikawa44 - devChallenges.io
+      </small>
     </footer>
     <script type="module" src="/js/main.js"></script>
   </body>
