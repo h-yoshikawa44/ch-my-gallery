@@ -8,8 +8,9 @@
   --gray3: #b9bdcf;
   --gray4: #bdbdbd;
   /* stylelint-disable value-keyword-case */
-  --font-base: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  --font-base:
+    -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu,
+    Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   --font-montserrat: Montserrat, sans-serif;
   /* stylelint-enable value-keyword-case */
 }
@@ -56,6 +57,19 @@ main {
   margin: 0 auto;
 }
 
+/* ref: https://tailwindcss.com/docs/screen-readers */
+.hide-header {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  white-space: nowrap;
+  border-width: 0;
+  clip: rect(0, 0, 0, 0);
+}
+
 /* main header
 -------------------- */
 
@@ -81,6 +95,7 @@ main {
 }
 
 .header__profile-base .profile-img {
+  height: auto;
   border-radius: 16px;
 }
 
@@ -152,6 +167,7 @@ main {
 }
 
 .gallery img {
+  height: auto;
   border-radius: 12px;
   box-shadow: 0 0 20px rgb(0 0 0 / 15%);
 }
